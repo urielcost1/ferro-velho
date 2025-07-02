@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+header button {
+  background: #555;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.tela {
+  display: none;
+  padding: 20px;
+}
+.tela.ativa {
+  display: block;
+}
+form {
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background: #eee;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+nav button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+nav button:hover {
+  background-color: #007bff;
+}
+
+main {
+  padding: 20px;
+}
+
+.tela {
+  display: none;
+}
+
+.tela.ativa {
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select, button {
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  form {
+    max-width: 100%;
+  }
+
+  table {
+    font-size: 12px;
+  }
+}
+
+table button {
+  margin-right: 5px;
+  padding: 4px 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.navbar {
+  background-color: #2b2d42;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #8be9fd;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin: 0;
+}

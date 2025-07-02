@@ -1,0 +1,110 @@
+[
+  {
+    "material": "Alumínio",
+    "peso": 10,
+    "valorTotal": 42,
+    "data": "2025-06-28T21:35:10.483Z"
+  },
+  {
+    "material": "Alumínio",
+    "peso": 10,
+    "valorTotal": 42,
+    "data": "2025-06-28T21:35:33.652Z"
+  },
+  {
+    "material": "Latão",
+    "peso": 10,
+    "valorTotal": 120,
+    "data": "2025-06-28T21:35:53.926Z"
+  },
+  {
+    "material": "dsa",
+    "peso": 100,
+    "valorTotal": 100,
+    "data": "2025-06-28T22:12:02.810Z"
+  },
+  {
+    "material": "dsa",
+    "peso": 12,
+    "valorTotal": 12,
+    "data": "2025-06-28T22:23:00.436Z"
+  },
+  {
+    "material": "212",
+    "peso": 3,
+    "valorTotal": 639,
+    "data": "2025-06-28T22:23:17.678Z"
+  },
+  {
+    "material": "metal",
+    "peso": 20,
+    "valorTotal": 200,
+    "data": "2025-06-28T22:26:18.492Z"
+  },
+  {
+    "material": "dsa",
+    "peso": 12,
+    "valorTotal": 12,
+    "data": "2025-06-28T23:08:19.685Z"
+  },
+  {
+    "material": "dsa",
+    "peso": 123,
+    "valorTotal": 123,
+    "data": "2025-06-28T23:15:28.596Z"
+  },
+  {
+    "material": "dsa",
+    "peso": 1231,
+    "valorTotal": 1231,
+    "data": "2025-06-28T23:16:39.925Z"
+  },
+  {
+    "material": "dsa",
+    "peso": 213,
+    "valorTotal": 213,
+    "data": "2025-06-28T23:24:44.099Z"
+  },
+  {
+    "material": "dsa",
+    "peso": 231,
+    "valorTotal": 231,
+    "data": "2025-06-28T23:26:07.942Z"
+  },
+  {
+    "material": "212",
+    "peso": 12,
+    "valorTotal": 25608,
+    "data": "2025-06-28T23:47:46.761Z"
+  },
+  {
+    "material": "212",
+    "peso": 23,
+    "valorTotal": 2346,
+    "data": "2025-06-28T23:48:41.061Z"
+  },
+  {
+    "material": "Áluninuo",
+    "peso": 10,
+    "valorTotal": 990,
+    "data": "2025-06-30T18:51:36.693Z"
+  },
+  {
+    "material": "das",
+    "peso": 21312,
+    "valorTotal": 255744,
+    "data": "2025-06-30T19:22:14.672Z"
+  },
+  {
+    "material": "das",
+    "peso": 3123,
+    "valorTotal": 37476,
+    "data": "2025-06-30T19:22:17.561Z"
+  },
+  {
+    "material": "das",
+    "peso": 31232,
+    "valorTotal": 374784,
+    "data": "2025-06-30T19:25:04.969Z"
+  }
+]
