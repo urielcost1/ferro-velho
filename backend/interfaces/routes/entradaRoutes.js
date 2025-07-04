@@ -1,12 +1,12 @@
 const express = require('express');
 const {
-  registrarEntrada,
-  listarEntradas
+  registrarPedido,    // 🔁 novo nome
+  listarPedidos        // 🔁 novo nome
 } = require('../controllers/entradaController');
 
 const router = express.Router();
 
-router.post('/', registrarEntrada);
-router.get('/', listarEntradas); // ← ESSA LINHA É FUNDAMENTAL
+router.post('/', registrarPedido);  // agora salva um pedido com várias entradas
+router.get('/', listarPedidos);     // lista pedidos agrupados
 
 module.exports = router;

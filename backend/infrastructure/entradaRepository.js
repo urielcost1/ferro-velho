@@ -3,16 +3,21 @@ const path = require('path');
 
 const ENTRADAS_PATH = path.resolve(__dirname, '../../data/entradas.json');
 
-function salvarEntrada(entrada) {
-  const entradas = listarEntradas();
-  entradas.push(entrada);
-  fs.writeFileSync(ENTRADAS_PATH, JSON.stringify(entradas, null, 2));
+// ✅ Salva um pedido com várias entradas agrupadas
+function salvarPedido(pedido) {
+  const pedidos = listarPedidos();
+  pedidos.push(pedido);
+  fs.writeFileSync(ENTRADAS_PATH, JSON.stringify(pedidos, null, 2));
 }
 
-function listarEntradas() {
+// ✅ Lista todos os pedidos (cada um com suas entradas)
+function listarPedidos() {
   if (!fs.existsSync(ENTRADAS_PATH)) return [];
   const data = fs.readFileSync(ENTRADAS_PATH);
   return JSON.parse(data);
 }
 
-module.exports = { salvarEntrada, listarEntradas };
+module.exports = {
+  salvarPedido,
+  listarPedidos
+};
