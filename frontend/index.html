@@ -9,12 +9,9 @@
 <body>
   <div id="navbar-placeholder"></div>
 
-  <header>
-    <button data-tela="entrada">Registrar Entrada</button>
-    <button data-tela="materiais">Materiais</button>
-    <button data-tela="historico">Histórico</button>
-  </header>
+  <header></header>
 
+  <!-- ✅ ENTRADA DE MATERIAL -->
   <section id="tela-entrada" class="tela ativa">
     <h2>Registrar Entrada de Material</h2>
     <form id="entradaForm">
@@ -22,14 +19,21 @@
       <select id="material"></select>
 
       <label for="peso">Peso (kg):</label>
-      <input type="number" id="peso" min="0" step="0.01"/>
+      <input type="number" id="peso" min="0" step="0.01" />
 
       <p id="valorTotal">Valor Total: R$ 0,00</p>
-      <button type="submit">Registrar Entrada</button>
+
+      <button type="button" id="adicionarEntrada">Adicionar Entrada</button>
+      <button type="submit">Finalizar Pedido</button>
+
+      <ul id="listaEntradas"></ul>
+      <p id="totalPedido">Total do Pedido: R$ 0,00</p>
     </form>
+
     <p id="mensagem"></p>
   </section>
 
+  <!-- ✅ CADASTRO DE MATERIAIS -->
   <section id="tela-materiais" class="tela">
     <h2>Cadastro de Materiais</h2>
     <form id="materialForm">
@@ -55,6 +59,7 @@
     </table>
   </section>
 
+  <!-- ✅ HISTÓRICO DE ENTRADAS -->
   <section id="tela-historico" class="tela">
     <h2>Histórico de Entradas</h2>
     <table id="tabelaEntradas">
@@ -70,27 +75,12 @@
     </table>
   </section>
 
-    <script type="module">
-      import { criarNavbar } from './components/navbar.js';
-      import {
-        trocarTela,
-        editarMaterial,
-        deletarMaterial,
-        carregarMateriais,
-        carregarEntradas
-      } from './script.js';
-
-      // Expor globalmente para uso nos botões gerados dinamicamente
-      window.trocarTela = trocarTela;
-      window.editarMaterial = editarMaterial;
-      window.deletarMaterial = deletarMaterial;
-
-      // Carregar dados
-      carregarMateriais();
-      carregarEntradas();
-
-      // Criar a navbar no topo
-      criarNavbar();
-    </script>
+  <!-- ✅ SCRIPTS MODULARES -->
+   <script type="module" src="./main.js"></script>
+  <script type="module">
+    import { criarNavbar } from './components/navbar.js';
+    import './pedidos.js';
+    criarNavbar(); // usa window.trocarTela já disponível
+  </script>
 </body>
 </html>

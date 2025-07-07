@@ -1,19 +1,7 @@
 [
   {
-    "nome": "das",
-    "valorPorKg": 12
-  },
-  {
     "nome": "21313",
-    "valorPorKg": 312
-  },
-  {
-    "nome": "21",
-    "valorPorKg": 21
-  },
-  {
-    "nome": "21",
-    "valorPorKg": 21
+    "valorPorKg": 31233
   },
   {
     "nome": "31",
@@ -40,15 +28,27 @@
     "valorPorKg": 123
   },
   {
-    "nome": "das",
-    "valorPorKg": 213
-  },
-  {
     "nome": "dasdsa",
     "valorPorKg": 1231
   },
   {
     "nome": "Áluninuo",
     "valorPorKg": 99
+  },
+  {
+    "nome": "Uriel",
+    "valorPorKg": 123
+  },
+  {
+    "nome": "teste",
+    "valorPorKg": 123
+  },
+  {
+    "nome": "papelao",
+    "valorPorKg": 1.55
+  },
+  {
+    "nome": "pet",
+    "valorPorKg": 234
   }
 ]

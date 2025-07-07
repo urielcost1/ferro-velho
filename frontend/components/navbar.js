@@ -1,3 +1,6 @@
+// components/navbar.js
+import { trocarTela } from '../core.js';
+
 // Componente de Navbar
 export function criarNavbar() {
   const navContainer = document.getElementById('navbar-placeholder');
@@ -17,11 +20,7 @@ export function criarNavbar() {
     link.addEventListener('click', (e) => {
       e.preventDefault();
       const tela = e.currentTarget.getAttribute('data-tela');
-      if (typeof window.trocarTela === 'function') {
-        window.trocarTela(tela);
-      } else {
-        console.error('Função trocarTela não disponível');
-      }
+      trocarTela(tela);
     });
   });
 }
